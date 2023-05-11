@@ -1,37 +1,48 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+
+import coffeeShop from "../assets/portfolio/coffeeShop.jpg";
+import eShop from "../assets/portfolio/EshopASPNET.png";
+//import navbar from "../assets/portfolio/navbar.jpg";
+import taskManager from "../assets/portfolio/taskManager.png";
+// import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+// import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: taskManager,
+      desc: "Task Manager",
+      github: "https://github.com/NadaHab/TasksManager",
     },
     {
       id: 2,
-      src: reactParallax,
+      src: coffeeShop,
+      desc: "Coffee Shop",
+      github: "https://github.com/NadaHab/React-Online-Coffee-Shop",
     },
-    {
-      id: 3,
-      src: navbar,
-    },
-    {
-      id: 4,
-      src: reactSmooth,
-    },
+
+    // {
+    //   id: 3,
+    //   src: navbar,
+    //   github: "https://github.com/NadaHab/React-Online-Coffee-Shop/tree/main",
+    // },
+    // {
+    //   id: 4,
+    //   src: reactSmooth,
+    //   github: "https://github.com/NadaHab/React-Online-Coffee-Shop/tree/main",
+    // },
     {
       id: 5,
-      src: installNode,
+      src: eShop,
+      desc: "Lady Brands",
+      github: "https://github.com/NadaHab/eshop",
     },
-    {
-      id: 6,
-      src: reactWeather,
-    },
+    // {
+    //   id: 6,
+    //   src: reactWeather,
+    //   github: "https://github.com/NadaHab/React-Online-Coffee-Shop/tree/main",
+    // },
   ];
 
   return (
@@ -47,9 +58,12 @@ const Portfolio = () => {
           <p className="text-xl py-6">Check out some of my work right here:</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-5 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-12 sm:px-0">
+          {portfolios.map(({ id, src, desc, github }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+              <button className=" px-6 py-3 m-4 duration-200 hover:scale-105">
+                {desc}
+              </button>
               <img
                 src={src}
                 alt=""
@@ -57,10 +71,7 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
+                  <a href={github}> Code</a>
                 </button>
               </div>
             </div>
