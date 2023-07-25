@@ -16,7 +16,7 @@ const About = () => {
         <p className="text-white text-xl mt-20 text-justify">
           I am a Full Stack Developer, passionate for front-end development.
           Amazed by this world of continuous development, I am a lover of
-          studying the new technologies! I have very good presentation skills.
+          studying the new technologies! I have very good presentation skills!
         </p>
 
         <br />
