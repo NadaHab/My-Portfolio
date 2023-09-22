@@ -15,7 +15,7 @@ const Home = () => {
             I'm a Passionate Full Stack Developer
           </h2>
           <p className="text-white text-xl font-semibold py-4 max-w-md">
-          I am a Full Stack Developer with more than 1 year of experience in designing, developing, and implementing web-based applications. I am seeking a challenging role in a dynamic organization that will allow me to utilize my skills, experience, and passion for programming to create innovative and efficient solutions.
+          I am a Full Stack Developer with experience in designing, developing, and implementing web-based applications. I am seeking a challenging role in a dynamic organization that will allow me to utilize my skills, experience, and passion for programming to create innovative and efficient solutions.
           </p>
 
           <div>
