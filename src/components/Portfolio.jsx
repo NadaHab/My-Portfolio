@@ -22,27 +22,12 @@ const Portfolio = () => {
       github: "https://github.com/NadaHab/React-Online-Coffee-Shop",
     },
 
-    // {
-    //   id: 3,
-    //   src: navbar,
-    //   github: "https://github.com/NadaHab/React-Online-Coffee-Shop/tree/main",
-    // },
-    // {
-    //   id: 4,
-    //   src: reactSmooth,
-    //   github: "https://github.com/NadaHab/React-Online-Coffee-Shop/tree/main",
-    // },
     {
-      id: 5,
+      id: 3,
       src: eShop,
       desc: "Lady Brands",
       github: "https://github.com/NadaHab/eshop",
     },
-    // {
-    //   id: 6,
-    //   src: reactWeather,
-    //   github: "https://github.com/NadaHab/React-Online-Coffee-Shop/tree/main",
-    // },
   ];
 
   return (
