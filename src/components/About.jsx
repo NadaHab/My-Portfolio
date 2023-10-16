@@ -14,9 +14,9 @@ const About = () => {
         </div>
 
         <p className="text-white text-xl mt-20 text-justify">
-          I am a Full Stack Developer, passionate for front-end development.
+          I am a Full Stack Developer, passionate for front-end and back-end development.
           Amazed by this world of continuous development, I am a lover of
-          studying the new technologies! I have very good communication skills!
+          studying the new technologies! 
         </p>
 
         <br />
@@ -24,12 +24,11 @@ const About = () => {
         <p className="text-white text-xl text-justify">
           With experience in Java, C# (.Net and .Net Core), PHP, JavaScript,
           HTML, CSS, SQL. Visual Studio, VSCode, IntelliJ IDEA. Frameworks:
-          Asp.net(MVC and Razor Pages), WPF, MySQL React I can Handle SQL
+          Asp.net(MVC and Razor Pages), WPF, MySQL, React. I can Handle SQL
           databases such as MySQL and MS SQL Server and, no-SQL databases:
           MongoDB. I can Create and consume web API, webservices, knowledge of
-          AWS, Unit testing, Git and Github, Agile methodology, Trello and
-          Microsoft Office applications (Powerpoint, Excel, Word). I am a
-          self-learner. I acquire knowledge on my own when needed.
+          AWS, Unit testing, Git and Github, Agile methodology, Trello. Proficient in
+          Microsoft Office applications (Powerpoint, Excel, Word).
         </p>
       </div>
     </div>

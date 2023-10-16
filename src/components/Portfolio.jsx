@@ -4,6 +4,7 @@ import coffeeShop from "../assets/portfolio/coffeeShop.jpg";
 import eShop from "../assets/portfolio/EshopASPNET.png";
 //import navbar from "../assets/portfolio/navbar.jpg";
 import taskManager from "../assets/portfolio/taskManager.png";
+import javaPractice from "../assets/portfolio/java4.jpeg";
 // import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 // import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
@@ -11,23 +12,31 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: taskManager,
-      desc: "Task Manager",
-      github: "https://github.com/NadaHab/TasksManager",
+      src: javaPractice,
+      desc: "JAVA Practice",
+      github: "https://github.com/NadaHab/Java-Practice/tree/master/src",
     },
+   
     {
-      id: 2,
+      id: 3,
       src: coffeeShop,
       desc: "Coffee Shop",
       github: "https://github.com/NadaHab/React-Online-Coffee-Shop",
     },
 
     {
-      id: 3,
+      id: 4,
       src: eShop,
       desc: "Lady Brands",
       github: "https://github.com/NadaHab/eshop",
     },
+    {
+      id: 2,
+      src: taskManager,
+      desc: "Task Manager",
+      github: "https://github.com/NadaHab/TasksManager",
+    },
+    
   ];
 
   return (
@@ -52,7 +61,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="h-48 w-56 rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
