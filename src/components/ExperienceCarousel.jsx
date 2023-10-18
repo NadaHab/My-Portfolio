@@ -87,13 +87,13 @@ const ExperienceCarousel = () => {
           </p>
         </div>
         <div className="flex justify-center items-center h-screen ">
-          <Carousel className="h-3/4 w-2/5 ">
+          <Carousel className="max-h-3/4 w-2/5 ">
             {techs.map(({ id, src, title, style }) => (
               <div
                 key={id}
                 className={`shadow-xl hover:scale-105 duration-600 rounded-lg ${style}`}
               >
-                <img src={src} alt="" className=" w-28 mx-auto" />
+                <img src={src} alt="" className=" max-h-1/3 w-28 mx-auto" />
                 <p className="mt-8 mb-8">{title}</p>
               </div>
             ))}
