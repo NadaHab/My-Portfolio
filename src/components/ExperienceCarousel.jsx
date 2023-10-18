@@ -19,7 +19,7 @@ const ExperienceCarousel = () => {
       id: 9,
       src: java,
       title: "Java",
-      style: "shadow-orange-400",
+      style: "shadow-red-600",
     },
     {
       id: 1,
@@ -61,7 +61,7 @@ const ExperienceCarousel = () => {
       id: 7,
       src: aspnet,
       title: "Asp.Net",
-      style: "shadow-pink-400",
+      style: "shadow-blue-300",
     },
     {
       id: 8,
@@ -75,14 +75,14 @@ const ExperienceCarousel = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen pt-12"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen pt-20 "
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
-          <p className="text-4xl font-bold border-b-4  text-blue-500 border-gray-500 p-2 inline">
+          <p className="text-4xl font-bold border-b-4  text-blue-500 border-gray-500 pt-2  inline">
             Experience
           </p>
-          <p className=" justify-center text-xl pt-6">
+          <p className=" justify-center text-xl pt-4 ">
             These are the technologies I've worked with:
           </p>
         </div>
@@ -91,7 +91,7 @@ const ExperienceCarousel = () => {
             {techs.map(({ id, src, title, style }) => (
               <div
                 key={id}
-                className={`shadow-md hover:scale-105 duration-600 rounded-lg ${style}`}
+                className={`shadow-xl hover:scale-105 duration-600 rounded-lg ${style}`}
               >
                 <img src={src} alt="" className=" w-28 mx-auto" />
                 <p className="mt-8 mb-8">{title}</p>
