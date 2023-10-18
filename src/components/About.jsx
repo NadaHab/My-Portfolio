@@ -13,22 +13,22 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-white text-xl mt-20 text-justify">
-          I am a Full Stack Developer, passionate for front-end and back-end development.
-          Amazed by this world of continuous development, I am a lover of
-          studying the new technologies! 
+        <p className="text-white text-xl mt-20 ">
+          I am a Full Stack Developer, passionate for front-end and back-end
+          development. Amazed by this world of continuous development, I am a
+          lover of studying the new technologies!
         </p>
 
         <br />
 
-        <p className="text-white text-xl text-justify">
+        <p className="text-white text-xl ">
           With experience in Java, C# (.Net and .Net Core), PHP, JavaScript,
           HTML, CSS, SQL. Visual Studio, VSCode, IntelliJ IDEA. Frameworks:
           Asp.net(MVC and Razor Pages), WPF, MySQL, React. I can Handle SQL
           databases such as MySQL and MS SQL Server and, no-SQL databases:
           MongoDB. I can Create and consume web API, webservices, knowledge of
-          AWS, Unit testing, Git and Github, Agile methodology, Trello. Proficient in
-          Microsoft Office applications (Powerpoint, Excel, Word).
+          AWS, Unit testing, Git and Github, Agile methodology, Trello.
+          Proficient in Microsoft Office applications (Powerpoint, Excel, Word).
         </p>
       </div>
     </div>

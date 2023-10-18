@@ -16,7 +16,12 @@ const Portfolio = () => {
       desc: "JAVA Practice",
       github: "https://github.com/NadaHab/Java-Practice/tree/master/src",
     },
-   
+    {
+      id: 4,
+      src: eShop,
+      desc: "Lady Brands",
+      github: "https://github.com/NadaHab/eshop",
+    },
     {
       id: 3,
       src: coffeeShop,
@@ -24,12 +29,7 @@ const Portfolio = () => {
       github: "https://github.com/NadaHab/React-Online-Coffee-Shop",
     },
 
-    {
-      id: 4,
-      src: eShop,
-      desc: "Lady Brands",
-      github: "https://github.com/NadaHab/eshop",
-    },
+  
     {
       id: 2,
       src: taskManager,
@@ -61,7 +61,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className="h-48 w-56 rounded-md duration-200 hover:scale-105"
+                className="h-52 w-full rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
