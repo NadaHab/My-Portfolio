@@ -9,9 +9,10 @@ const content = [
     "Amazed by the continuous development in the world of Artificial Intelligence & Software",
     "I am a lover of studying the new technologies!",
   ],
-  ["Power Apps", "Power BI", "Forms", "Lists"],
-  ["React", "Java", "Front-end development", "SQL and MySQL"],
-  ["Microsoft PowerPoint", "Microsoft Excel", "Microsoft Word", " "],
+  ["Business Intelligence & Data Analyst",
+  "Amazed by the continuous development in the world of Artificial Intelligence & Software"],
+  ["Power Apps", "Power BI", "Forms", "Lists","Microsoft PowerPoint, Excel, Word","React", "Java", "Front-end development", "SQL and MySQL"],
+  [ " Jogging", "Planting", "Jazz Music"],
  
 ];
 
