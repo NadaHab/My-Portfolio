@@ -4,14 +4,15 @@ import "./AboutCss/style.css";
 
 const content = [
   [
-    "I am a Full Stack Developer",
-    "Passionate for front-end and back-end development",
-    "Amazed by the continuous development in the world of Software",
+    "Business Intelligence & Data Analyst",
+    "SQL • Python • Power BI • Data Analytics • Business Intelligence • Reporting",
+    "Amazed by the continuous development in the world of Artificial Intelligence & Software",
     "I am a lover of studying the new technologies!",
   ],
+  ["Power Apps", "Power BI", "Forms", "Lists"],
   ["React", "Java", "Front-end development", "SQL and MySQL"],
   ["Microsoft PowerPoint", "Microsoft Excel", "Microsoft Word", " "],
-  ["Home Decoration", "Planting", "Jogging", "Listening to music "],
+ 
 ];
 
 const About = () => {
@@ -31,15 +32,8 @@ const About = () => {
 
         <br />
 
-        <p className="text-white text-xl ">
-          I am a Full Stack Developer / Software Developer.       <br />
-          With experience in Java, C# (.Net and .Net Core), PHP, JavaScript, HTML, CSS, SQL. Visual
-          Studio, VSCode, IntelliJ IDEA. Frameworks: Asp.net(MVC and Razor
-          Pages), WPF, MySQL, React. I can Handle SQL databases such as MySQL
-          and MS SQL Server and, no-SQL databases: MongoDB. I can Create and
-          consume web API, webservices, knowledge of AWS, Unit testing, Git and
-          Github, Agile methodology, Trello. Proficient in Microsoft Office
-          applications (Powerpoint, Excel, Word).
+        <p className="text-white xs:text-l md:text-xl">
+        Business Intelligence and Data Analyst with 4+ years of experience transforming complex data into actionable business insights through reporting, data analysis, and process improvement. Experienced in SQL, Power BI, Excel, Python, forecasting, and data validation to support strategic decision-making. Proven ability to collaborate with cross-functional stakeholders, develop dashboards, improve data quality, and deliver analytical solutions that enhance operational efficiency. Recognized for strong analytical thinking, attention to detail, and the ability to communicate technical findings to both technical and non-technical audiences.
         </p>
         <div id="tabs">
           <menu>
