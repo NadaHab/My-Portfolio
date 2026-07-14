@@ -5,7 +5,7 @@ import "./AboutCss/style.css";
 const content = [
   [
     "Business Intelligence & Data Analyst",
-    "SQL • Python • Power BI • Data Analytics • Business Intelligence • Reporting",
+    "SQL • Python • Power Apps • Power BI • Data Analytics • Business Intelligence • Reporting",
     "Amazed by the continuous development in the world of Artificial Intelligence & Software",
     "I am a lover of studying the new technologies!",
   ],
