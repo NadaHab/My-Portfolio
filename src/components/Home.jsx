@@ -12,10 +12,13 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-blue-500">
-            I'm a Passionate Full Stack Developer
+          Business Intelligence & Data Analyst
+          
           </h2>
           <p className="text-white text-xl font-semibold py-4 max-w-md">
-          I am a Full Stack Developer with experience in designing, developing, and implementing web-based applications. I am seeking a challenging role in a dynamic organization that will allow me to utilize my skills, experience, and passion for programming to create innovative and efficient solutions.
+          SQL • Python • Power BI • Data Analytics • Business Intelligence • Reporting. 
+          
+          I am seeking a challenging role in a dynamic organization that will allow me to utilize my skills, experience, and passion for programming to create innovative and efficient solutions.
           </p>
 
           <div>
