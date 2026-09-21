@@ -34,7 +34,7 @@ const About = () => {
         <br />
 
         <p className="text-white xs:text-l md:text-xl">
-        Business Intelligence and Data Analyst with 4+ years of experience transforming complex data into actionable business insights through reporting, data analysis, and process improvement. Experienced in SQL, Power BI, Excel, Python, forecasting, and data validation to support strategic decision-making. Proven ability to collaborate with cross-functional stakeholders, develop dashboards, improve data quality, and deliver analytical solutions that enhance operational efficiency. Recognized for strong analytical thinking, attention to detail, and the ability to communicate technical findings to both technical and non-technical audiences.
+        Educator and Academic Systems & Data Analyst with extensive experience in education, technology, academic planning, data analysis, and organizational process improvement. Brings a combination of 14+ years of teaching and training experience and recent experience supporting academic operations and institutional decision-making in a Québec CEGEP environment. 
         </p>
         <div id="tabs">
           <menu>
