@@ -17,7 +17,8 @@ const Home = () => {
           </h2>
           <p className="text-white text-xl font-semibold py-4 max-w-md">
           Educator | Academic Systems & Data Analyst | Educational Technology & Process Improvement
-          
+          </p>
+          <p className="text-white text-l font-semibold py-4 max-w-md">
           Experienced in analyzing complex information, identifying trends and issues, translating data into actionable recommendations, and collaborating with educators, academic departments, administrative services, IT, and management. A continuous learner with a Bachelor’s degree in Computer Science and an AEC in Full Stack Development, with hands-on experience in Power BI, Power Apps, Microsoft 365, SQL, Excel, forecasting, reporting, and academic systems..
           </p>
 
